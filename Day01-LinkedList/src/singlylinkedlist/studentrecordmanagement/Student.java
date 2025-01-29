@@ -76,7 +76,7 @@ public class Student {
         if(head == null){
             System.out.println("empty list");
             return;
-        }
+        }// case 1 head
         if(head.rollNumber == rollNumber){
             head = head.next;
             System.out.println("deleted");
