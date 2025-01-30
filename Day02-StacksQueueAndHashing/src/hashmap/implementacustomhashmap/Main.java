@@ -95,8 +95,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-      MyHashMap map = new MyHashMap();
-    // put and get operations
+        MyHashMap map = new MyHashMap();
+        // put and get operations
         map.put(1, 10);
         map.put(2, 20);
         map.put(3, 30);
@@ -106,7 +106,7 @@ public class Main {
         System.out.println("Value for key 2: " + map.get(2));
         System.out.println("Value for key 3: " + map.get(3));
         System.out.println("Value for key 16: " + map.get(16));
-        System.out.println("Value for key 100: " + map.get(100)); 
+        System.out.println("Value for key 100: " + map.get(100));
 
         // Test remove operation
         map.remove(2);
