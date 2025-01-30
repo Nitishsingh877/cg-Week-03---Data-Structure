@@ -12,6 +12,10 @@ public class main {
             return s1.isEmpty();
         }
         //add
+        //logic is if s1 is not empty push in s1
+        //if s1 have element pop and psuh in s2
+        //add in s1 then
+        //again repeat the same process
         public  static void add(int data){
             while (!s1.isEmpty()){
                 s2.push(s1.pop());
