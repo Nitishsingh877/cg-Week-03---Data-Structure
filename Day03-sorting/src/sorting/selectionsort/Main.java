@@ -3,6 +3,7 @@ package sorting.selectionsort;
 import java.util.Arrays;
 
 public class Main {
+    //pick the smallest from unsorted array and put at begining;
 
     public static String selectionsort(int[] arr){
         for(int i =0; i< arr.length-1;i++){
