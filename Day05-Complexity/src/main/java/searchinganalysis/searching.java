@@ -57,16 +57,17 @@ public class searching {
 
         System.out.println("\n");
 
-        //sort array then binary search
+        //sort array
         Arrays.sort(randomNumbers);
 
+        //binary search
         
-        long Stime, ETime, DiffTime;
-        Stime = System.nanoTime();
+        long Stimes, ETime, DiffTime;
+        Stimes = System.nanoTime();
         int response = binarySearch(randomNumbers, target);
         ETime = System.nanoTime();
         System.out.println("index is " + result);
-        DiffTime = ETime - Stime;
+        DiffTime = ETime - Stimes;
         System.out.println("time in binary search is " + (DiffTime) +  " nanoSeconds");
         System.out.println(TimeUnit.NANOSECONDS.toMillis(DiffTime)+ " in milli seconds");
 
