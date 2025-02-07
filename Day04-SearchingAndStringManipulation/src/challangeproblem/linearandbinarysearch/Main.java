@@ -41,7 +41,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = {-2,-3,-5,-6,-8,0,9,11,12};
         int target = 9;
-        //run at a time one 
+        //run at a time one
         System.out.println( firstMissingNumber(arr));
         System.out.println(targetIndex(arr,target));
 
