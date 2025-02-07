@@ -52,7 +52,8 @@ public class searching {
         int result =  linearSearch(randomNumbers,target);
         endTime=System.nanoTime();
         System.out.println("index is  " + result);
-        System.out.println("time taken in nano Seconds for linear search " + TimeUnit.NANOSECONDS.toMillis(endTime-startTime));
+        System.out.println("time taken in nano Seconds for linear search " + (endTime-startTime));
+        System.out.println(TimeUnit.NANOSECONDS.toMillis(endTime-startTime)+ " in milli seconds");
 
         System.out.println("\n");
 
@@ -66,7 +67,8 @@ public class searching {
         ETime = System.nanoTime();
         System.out.println("index is " + result);
         DiffTime = ETime - Stime;
-        System.out.println("time in binary search is " + TimeUnit.NANOSECONDS.toMillis(DiffTime) +  " nanoSeconds");
+        System.out.println("time in binary search is " + (DiffTime) +  " nanoSeconds");
+        System.out.println(TimeUnit.NANOSECONDS.toMillis(DiffTime)+ " in milli seconds");
 
     }
 }
